@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+* {
+    margin: 10px 10px 10px 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 25%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 10px 10px 10px 10px;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Content */
+.content {
+    margin-left: 30%;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+pre {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation for the New website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Technical Documentation</h1>
+            <p>Welcome to the documentation for our product, service, management, connecting to the other client cross connection and understand the client needs.</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <nav class="sidebar">
+            <h2>Table of Contents</h2>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#installation">Installation</a></li>
+                <li><a href="#usage">Usage</a></li>
+                <li><a href="#api">API</a></li>
+                <li><a href="#contribution">Contribution</a></li>
+                <li><a href="#license">License</a></li>
+            </ul>
+        </nav>
+
+        <main class="content">
+            <section id="introduction">
+                <h2>Introduction</h2>
+                <p>This document provides technical details for using the product, including installation, usage, API, and how to contribute and the advanced features.</p>
+            </section>
+
+            <section id="installation">
+                <h2>Installation</h2>
+                <p>following steps to install the product:</p>
+                <ol>
+                    <li>Go through Botgo website</li>
+                    <li>Click on the Download and set the vertion you need.</li>
+                    <li>Download the latest version from the website.</li>
+                    <li>Run the installer and follow the prompts.</li>
+                    <li>Once installed, run the program.</li>
+                </ol>
+            </section>
+
+            <section id="usage">
+                <h2>Usage</h2>
+                <p>Here’s how you can use the product:</p>
+                <pre><code>--help</code>
+                <code>cmd start doc</code>
+                <code>Start "file name"</code>
+                <code>save Input</code>
+                <code>exit</code></pre>
+                <p>Refer to the API section for more advanced commands all the advanced command get through the --hel command.</p>
+            </section>
+
+            <section id="api">
+                <h2>API</h2>
+                <p>The following API endpoints are available:</p>
+                <ul>
+                    <li><strong>GET /api/v1/resource</strong> - Retrieve a list of resources.</li>
+                    <li><strong>POST /api/v1/resource</strong> - Create a new resource.</li>
+                    <li><strong>PUT /api/v1/resource/{id}</strong> - Update an existing resource.</li>
+                    <li><strong>DELETE /api/v1/resource/{id}</strong> - Delete a resource.</li>
+                </ul>
+            </section>
+
+            <section id="contribution">
+                <h2>Contribution</h2>
+                <p>We welcome contributions to the project! Please fork the repository and submit a pull request with your changes.</p>
+            </section>
+
+            <section id="license">
+                <h2>License</h2>
+                <p>This project is licensed under the MIT License.</p>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Documentation created by <div Vaibhav="vaibhav" Aggarwal="Aggarwal"></div>.</p>
+        </div>
+    </footer>
+</body>
+</html>
